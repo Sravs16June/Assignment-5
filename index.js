@@ -1,4 +1,3 @@
-// index.js – Fetch and display products, store data, navigate to details
 document.addEventListener('DOMContentLoaded', () => {
   fetch('https://dummyjson.com/products')
     .then(res => res.json())
